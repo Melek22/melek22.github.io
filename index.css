@@ -1,6 +1,103 @@
-*{
-  background-color: #eeeeee;
-}
 h1{
-  color: red;
+  text-align: center;
+  font-family: Jost;
+}
+
+h2{
+  font-family: Jost;
+}
+
+.box{
+  padding: 20px 20px;
+  border: solid 1px #000;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.all-colors{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.colors{
+  flex: 3;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.green{
+  background-color: #00ff00;
+}
+
+.blue{
+  background-color: #0000FF;
+  color: #fff;
+}
+
+.red{
+  background-color: darkred;
+  color: #fff;
+}
+
+.all-fonts{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fonts{
+  flex: 3;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.jost p{
+  font-family: Jost, serif;
+}
+
+.roboto p{
+  font-family: Arial, serif;
+}
+
+.poppins p{
+  font-family: Poppins, serif;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+
+.all-text-styles{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.text-styles{
+  flex: 3;
+}
+
+.first-header p{
+  font-family: Jost;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.second-header p{
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.paragraph-text p{
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 14px;
 }
